@@ -18,6 +18,8 @@ public class Pmsc implements ModInitializer
     {
 
         LOGGER.info("Here we go again...");
+        VanillaMobSpawnController.loadVanillaMobSpawns();
+
 
     }
 }
