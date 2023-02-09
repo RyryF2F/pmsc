@@ -16,12 +16,12 @@ public class ConfigMain implements ConfigData
 
     @ConfigEntry.Gui.PrefixText
     @ConfigEntry.Category(value = "general")
-    @ConfigEntry.Gui.Tooltip //this should be "Requires Restart. Enable if you know what you're doing, this will remove any previous entries"
+    @ConfigEntry.Gui.Tooltip
     public boolean generateAllVanillaMobs = false;
 
     @ConfigEntry.Gui.PrefixText
     @ConfigEntry.Category(value = "general")
-    @ConfigEntry.Gui.Tooltip //this should be "Requires Restart. Enable if you know what you're doing, this will remove any previous entries"
+    @ConfigEntry.Gui.Tooltip
     public boolean generateAllModdedMobs = false;
 
 
