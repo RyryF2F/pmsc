@@ -1,0 +1,103 @@
+{
+  "text.autoconfig.pmsc.title": "Proper Mob Spawn Controller",
+
+  "text.autoconfig.pmsc.category.general": "General",
+
+    "text.autoconfig.pmsc.option.enableMod" : "PMSC Enabled",
+    "text.autoconfig.pmsc.option.generateAllVanillaMobs": "Generate ALL Vanilla Mobs",
+    "text.autoconfig.pmsc.option.generateAllModdedMobs": "General ALL Modded Mobs",
+    "text.autoconfig.pmsc.option.generateAllVanillaMobs.@Tooltip" : "WARNING: ONLY ENABLE IF YOU KNOW WHAT YOU ARE DOING.",
+    "text.autoconfig.pmsc.option.generateAllModdedMobs.@Tooltip" : "WARNING: ONLY ENABLE IF YOU KNOW WHAT YOU ARE DOING.",
+
+    "text.autoconfig.pmsc.option.enableMod.@PrefixText" : "Any changes REQUIRE RESTART",
+    "text.autoconfig.pmsc.option.generateAllVanillaMobs.@PrefixText": "If enabled, on restart Vanilla Mob Override will be filled/reset with all vanilla mobs",
+    "text.autoconfig.pmsc.option.generateAllModdedMobs.@PrefixText": "If enabled, on restart Modded Mob Override will be filled/reset with all detected modded mobs",
+
+
+
+  "text.autoconfig.pmsc.category.Mob Spawn Groups": "Spawn Groups",
+    "text.autoconfig.pmsc.option.monsterGroup": "Monster Spawn Group",
+    "text.autoconfig.pmsc.option.creatureGroup": "Creature Spawn Group",
+    "text.autoconfig.pmsc.option.ambientGroup": "Ambient Spawn Group",
+    "text.autoconfig.pmsc.option.axolotlGroup": "Axolotl Spawn Group",
+    "text.autoconfig.pmsc.option.waterCreatureGroup": "Water Creature Spawn Group",
+    "text.autoconfig.pmsc.option.waterAmbientGroup": "Water Ambient Spawn Group",
+    "text.autoconfig.pmsc.option.undergroundWaterGroup": "Underground Water Spawn Group",
+
+
+
+  "text.autoconfig.pmsc.category.Mob Spawn Override": "Mob Override",
+    "text.autoconfig.pmsc.option.mobSpawnsOverride": "Mob Spawn Overrides",
+
+
+
+  "text.autoconfig.pmsc.category.Vanilla Mob Spawn Override": "Vanilla Mob Override",
+    "text.autoconfig.pmsc.option.vanillaMobSpawns": "Vanilla Mob Spawn Overrides",
+    "text.autoconfig.pmsc.option.vanillaMobSpawns.@PrefixText": "DO NOT ENTER YOUR OWN MOBS HERE, go to \"Mob Overrides\"",
+
+
+  "text.autoconfig.pmsc.category.Modded Mob Spawn Override": "Modded Mob Override",
+    "text.autoconfig.pmsc.option.moddedMobSpawns": "Modded Mob Spawn Overrides",
+    "text.autoconfig.pmsc.option.moddedMobSpawns.@PrefixText": "DO NOT ENTER YOUR OWN MOBS HERE, go to \"Mob Overrides\"",
+
+  "text.autoconfig.pmsc.option.CustomMobSpawn": "Custom Mob Override",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.enabled": "Enabled",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.biomeId": "Biome Id",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.mobId": "Mob Id",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.spawnGroup": "Spawn Group",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.weight": "Weight",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.minCount": "Min Count",
+  "text.autoconfig.pmsc.option.CustomMobSpawn.maxCount": "Max Count",
+
+
+  "text.autoconfig.pmsc.option.monsterGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.monsterGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.monsterGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.monsterGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.monsterGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.monsterGroup.enabled": "Enabled Monster Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.creatureGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.creatureGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.creatureGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.creatureGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.creatureGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.creatureGroup.enabled": "Enabled Creature Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.ambientGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.ambientGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.ambientGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.ambientGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.ambientGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.ambientGroup.enabled": "Enabled Ambient Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.axolotlGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.axolotlGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.axolotlGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.axolotlGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.axolotlGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.axolotlGroup.enabled": "Enabled Axolotl Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.waterCreatureGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.waterCreatureGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.waterCreatureGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.waterCreatureGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.waterCreatureGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.waterCreatureGroup.enabled": "Enabled Water Creature Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.waterAmbientGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.waterAmbientGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.waterAmbientGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.waterAmbientGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.waterAmbientGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.waterAmbientGroup.enabled": "Enabled Water Ambient Spawn Group Override",
+
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.capacity" : "Capacity",
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.peaceful" : "Peaceful",
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.rare": "Rare",
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.immediateDespawnRange": "Immediate Despawn Range",
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.despawnStartRange": "Despawn Start Range",
+  "text.autoconfig.pmsc.option.undergroundWaterGroup.enabled": "Enabled Underground Water Spawn Group Override"
+
+
+}

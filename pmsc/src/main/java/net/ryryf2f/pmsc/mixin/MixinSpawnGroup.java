@@ -38,7 +38,7 @@ public class MixinSpawnGroup
     {
         ConfigMain.CustomSpawnGroup mobGroup = custom_mob_groups.get(this.name);
 
-        if (mobGroup == null)
+        if (mobGroup == null || !(mobGroup.enabled))
             return;
 
         info.setReturnValue(mobGroup.capacity);
@@ -53,7 +53,7 @@ public class MixinSpawnGroup
     {
         ConfigMain.CustomSpawnGroup mobGroup = custom_mob_groups.get(this.name);
 
-        if (mobGroup == null)
+        if (mobGroup == null || !(mobGroup.enabled))
             return;
 
         info.setReturnValue(mobGroup.peaceful);
@@ -68,7 +68,7 @@ public class MixinSpawnGroup
     {
         ConfigMain.CustomSpawnGroup mobGroup = custom_mob_groups.get(this.name);
 
-        if (mobGroup == null)
+        if (mobGroup == null || !(mobGroup.enabled))
             return;
 
         info.setReturnValue(mobGroup.rare);
@@ -83,7 +83,7 @@ public class MixinSpawnGroup
     {
         ConfigMain.CustomSpawnGroup mobGroup = custom_mob_groups.get(this.name);
 
-        if (mobGroup == null)
+        if (mobGroup == null || !(mobGroup.enabled))
             return;
 
         info.setReturnValue(mobGroup.immediateDespawnRange);
@@ -98,19 +98,11 @@ public class MixinSpawnGroup
     {
         ConfigMain.CustomSpawnGroup mobGroup = custom_mob_groups.get(this.name);
 
-        if (mobGroup == null)
+        if (mobGroup == null || !(mobGroup.enabled))
             return;
 
         info.setReturnValue(mobGroup.despawnStartRange);
     }
-
-
-
-//    @Unique
-//    private ConfigMain.CustomSpawnGroup getCustomMobGroup(String name)
-//    {
-//        return custom_mob_groups.get(name);
-//    }
 
     static {
         custom_mob_groups = new HashMap<>();

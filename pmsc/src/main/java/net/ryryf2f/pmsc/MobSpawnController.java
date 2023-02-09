@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -12,6 +13,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.SpawnSettings;
 import net.ryryf2f.pmsc.config.ConfigMain;
+
+import java.util.List;
 
 public class MobSpawnController
 {
@@ -25,8 +28,10 @@ public class MobSpawnController
         if (CONFIG.generateAllVanillaMobs)
         {
             Pmsc.LOGGER.info("Generation of all vanilla mobs requested, building...");
+            CONFIG.vanillaMobSpawns = List.of();
+
             Registries.ENTITY_TYPE.forEach(entityType -> {
-                if (getId(entityType).toString().contains("minecraft:"))
+                if (getId(entityType).toString().contains("minecraft:") && !(entityType.getSpawnGroup().equals(SpawnGroup.MISC)))
                     CONFIG.vanillaMobSpawns.add(new ConfigMain.CustomMobSpawn("all", getId(entityType).toString(), entityType.getSpawnGroup(),0,0,0,false));
 
             });
@@ -38,6 +43,7 @@ public class MobSpawnController
         if (CONFIG.generateAllModdedMobs)
         {
             Pmsc.LOGGER.info("Generation of all modded mobs requested, building...");
+            CONFIG.moddedMobSpawns = List.of();
             Registries.ENTITY_TYPE.forEach(entityType ->
             {
                 if (!getId(entityType).toString().contains("minecraft"))
