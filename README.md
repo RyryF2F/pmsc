@@ -24,10 +24,6 @@ ModMenu - https://github.com/TerraformersMC/ModMenu
 -Integration with ModMenu (MOD MENU RECOMMENDED)
 
 
-## Planned Features
--Edit Spawners
--Super secret ideas
-
 ## License
 MIT
 **Open source is happy coding!**
